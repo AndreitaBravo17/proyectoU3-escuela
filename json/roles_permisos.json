@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "62f813a2768d9b8b501bc35f"
+  },
+  "permisos": [
+    "62f7ca61768d9b8b501bc32b"
+  ],
+  "rol": {
+    "$oid": "62f7cc17768d9b8b501bc33a"
+  }
+},{
+  "_id": {
+    "$oid": "62f813a2768d9b8b501bc360"
+  },
+  "permisos": [
+    "62f7ca61768d9b8b501bc330"
+  ],
+  "rol": {
+    "$oid": "62f7cc17768d9b8b501bc33b"
+  }
+},{
+  "_id": {
+    "$oid": "62f813a2768d9b8b501bc361"
+  },
+  "permisos": [
+    "62f7ca61768d9b8b501bc331",
+    "62f7ca61768d9b8b501bc332",
+    "62f7ca61768d9b8b501bc333"
+  ],
+  "rol": {
+    "$oid": "62f7cc17768d9b8b501bc33c"
+  }
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "62f7cc17768d9b8b501bc33a"
+  },
+  "descripcion": "administrador",
+  "estado": "habilitado"
+},{
+  "_id": {
+    "$oid": "62f7cc17768d9b8b501bc33b"
+  },
+  "descripcion": "docente",
+  "estado": "habilitado"
+},{
+  "_id": {
+    "$oid": "62f7cc17768d9b8b501bc33c"
+  },
+  "descripcion": "estudiante",
+  "estado": "habilitado"
+}]

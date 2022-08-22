@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "62f83919768d9b8b501bc375"
+  },
+  "cedula": "0000000000",
+  "nombre": "Super Admin",
+  "password": "@_password_admin",
+  "roles_permisos": [
+    {
+      "$oid": "62f813a2768d9b8b501bc35f"
+    }
+  ],
+  "username": "@super_admin",
+  "path": "foto_0000000000.png"
+},{
+  "_id": {
+    "$oid": "62f91e65cdaba658b9a57a73"
+  },
+  "cedula": "7575757575",
+  "nombre": "Gloria Morales",
+  "username": "@_7575757575",
+  "password": "7575757575",
+  "roles_permisos": [
+    {
+      "$oid": "62f813a2768d9b8b501bc360"
+    }
+  ]
+}]

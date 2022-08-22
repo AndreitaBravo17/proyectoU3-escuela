@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/vistas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topBar">
+        <h2 class="title-view">Materias</h2>
+        <div class="auth">
+            <div id="user-logged"></div>
+            <img src="" alt="img-user" id ="user-img" class="card" >
+        </div>
+        <div class="currentPeriod"></div>
+    </div>
+    <div class="options">
+        <form>
+            <label for="" class="title-form">Nueva Materia</label>
+            <div class="section-block">
+                <input type="text" name="materia" title="La cedula debe contener 10 números" required>
+                <div class="text-danger error-materia hidden"></div>
+            </div>
+            <div class="section-block">
+                <label for="aula" aria-required="true">Aula</label>
+                <select name="aula" id="aula"></select>
+                <div class="text-danger error-aula hidden"></div>
+            </div>           
+            <div class="section-block">
+                <label for="" aria-required="true">Horario</label>
+                <select name="horario">
+                    <option value="">Seleccione el horario</option>
+                    <option value="07:15-07:55">07:15-07:55</option>
+                    <option value="07:55-08:35">07:55-08:35</option>
+                    <option value="08:35-09:15">08:35-09:15</option>
+                    <option value="09:35-10:15">09:35-10:15</option> 
+                    <option value="10:15-10:55">10:15-10:55</option>
+                    <option value="10:55-11:15">10:55-11:15</option>
+                    <option value="11:15-11:55">11:15-11:55</option>
+                    <option value="11:55-12:35">11:55-12:35</option>
+                </select>
+                <div class="text-danger error-horario hidden"></div>
+            </div>           
+            <div class="section-block">
+                <input type="submit" value="Guardar">
+            </div>
+        </form>
+        <table class="table table-striped">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Materia</th>
+                    <th scope="col">Aula</th>
+                    <th scope="col">Horario</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="update-modal hidden">
+        <div class="exit-icon">X</div>
+        <form>
+            <label for="" class="title-form">Modificar materia</label>
+            <input type="hidden" name="id">
+            <div class="section-block">
+                <input type="text" name="materia_update" title="La cedula debe contener 10 números" required>
+                <div class="text-danger error-update-materia hidden"></div>
+            </div>
+            <div class="section-block">
+                <label for="aula" aria-required="true">Aula</label>
+                <select name="aula" id="aula_update"></select>
+                <div class="text-danger error-update-aula hidden"></div>
+            </div>           
+            <div class="section-block">
+                <label for="" aria-required="true">Horario</label>
+                <select name="horario_update">
+                    <option value="">Seleccione el horario</option>
+                    <option value="07:15-07:55">07:15-07:55</option>
+                    <option value="07:55-08:35">07:55-08:35</option>
+                    <option value="08:35-09:15">08:35-09:15</option>
+                    <option value="09:35-10:15">09:35-10:15</option> 
+                    <option value="10:15-10:55">10:15-10:55</option>
+                    <option value="10:55-11:15">10:55-11:15</option>
+                    <option value="11:15-11:55">11:15-11:55</option>
+                    <option value="11:55-12:35">11:55-12:35</option>
+                </select>
+                <div class="text-danger error-update-horario hidden"></div>
+            </div>           
+            <div class="section-block">
+                <input type="submit" value="Guardar">
+            </div>
+        </form>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="../js/subjects.js" type="module"></script>
+</body>
+</html>

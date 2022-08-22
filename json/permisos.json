@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc32b"
+  },
+  "descripcion": "Todos los permisos"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc32c"
+  },
+  "descripcion": "Agregar, modificar y eliminar docentes"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc32d"
+  },
+  "descripcion": "Agregar, modificar y eliminar estudiantes"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc32e"
+  },
+  "descripcion": "Agregar, modificar y eliminar aulas"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc32f"
+  },
+  "descripcion": "Agregar, modificar y eliminar horarios"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc330"
+  },
+  "descripcion": "Agregar y modificar nota de los estudiantes"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc331"
+  },
+  "descripcion": "Revisar sus notas"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc332"
+  },
+  "descripcion": "Realizar evaluaciones"
+},{
+  "_id": {
+    "$oid": "62f7ca61768d9b8b501bc333"
+  },
+  "descripcion": "Calificar los test"
+}]

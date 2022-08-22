@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "62faac41700f6f51686675c1"
+  },
+  "nivel": "Inicial I",
+  "paralelo": "A",
+  "docente": {
+    "$oid": "62f91e65cdaba658b9a57a73"
+  },
+  "estudiantes": []
+}]
